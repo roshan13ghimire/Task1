@@ -1,0 +1,637 @@
+.body{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.wd-20{
+    width:20%;
+}
+.wd-80{
+    width: 80%;
+    margin:0px auto;
+}
+.wd-100{
+    width:100%;
+}
+.mt-30{
+    margin-top:30px;
+}
+.mt-20{
+    margin-top:20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.pd-30{
+    padding:10px 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.flex{
+    display: flex;
+}
+.flex-sb{
+    justify-content: space-between; 
+}
+.header{
+    margin-top:30px;
+}
+.center{
+    text-align: center;
+}
+.links{
+    text-decoration: none !important;
+}
+.lists{
+    list-style: none;
+    float:left;
+}
+.bold{
+    font-weight: 600;
+}
+.white{
+    color:white !important;
+}
+.red{
+    color:red;
+}
+.font{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.phoneNumberText{
+    margin-right: 10px;
+}
+.topNavListItemLink{
+    padding:10px 20px;
+    color:black !important;
+}
+.topNavListItemLink:hover{
+    background-color: crimson;
+}
+.searchBox{
+    position: relative;
+    width:90%;
+}
+.searchInput{
+    width: 90%;
+    margin-top:15px;
+    padding:10px 20px;
+}
+.search{
+    position: absolute;
+    top:32%;
+    right: 12%;
+}
+.navIcons{
+    font-size: 20px;
+    margin-top:30px;
+    width: 23%;
+    justify-content: space-around;
+}
+.backgroundFull{
+    background-color: rgba(54,54,54,255);
+}
+.mainNavListItem{
+    padding:17px;
+}
+.mainNavListItemLink{
+    padding:17px;
+}
+.mainNavListItem:hover{
+    background-color: crimson;
+}
+.bottomHeader{
+    width:80%;
+    margin:0px auto;
+}
+.navBars, .navCross{
+    color:white;
+    display: none !important;
+}
+.cText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 45px;
+    width:30%;
+    height: 25vh;
+    text-align: center;
+}
+.line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:8px solid white;
+    width:35%;
+    height: 35vh;
+}
+.d-block{
+    height: 700px;
+}
+.chervinImage{
+    width:100%;
+}
+
+.chImage{
+    width:100%;
+    height: auto;
+    border-radius: 20px;
+}
+.chervinText{
+    width:80%;
+    text-align: justify;
+}
+.chervinHeadingText{
+    margin-bottom: 30px;
+}
+.products{
+    width:15%;
+    padding:20px;
+    box-shadow: 1px 2px 20px #aaaaaa;
+}
+.products i{
+    font-size: 30px;
+}
+.productsText{
+    margin-left: 15px;
+}
+.dealsContainer,.happyCustomersContainer{
+    background-color: rgba(240,240,240,255);
+    padding-bottom: 40px;
+}
+.headingText{
+    text-align: center;
+}
+.dealHeading,.customerHeadingText{
+    padding: 40px 0px;
+}
+.cards{
+    width:30%;
+}
+.productImage{
+    width: 100%;
+    height: auto;
+}
+.cards,.cardd{
+    background-color: white;
+}
+.discountPrice{
+    color:red;
+    font-size: 20px;
+}
+.categories{
+    width:10%;
+    margin:0px auto;
+}
+.shopItems{
+    margin-bottom:30px;
+}
+.categories i{
+    display: flex;
+    justify-content: center;
+}
+.itemHeading{
+    text-align: center;
+}
+.customerImage{
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 40%;
+}
+.customersFeedbackText{
+    text-align: justify;
+    font-size: 20px;
+}
+.cardd{
+    width:30%;
+}
+.photoText{
+    justify-content: space-evenly;
+}
+.customerName{
+    font-size: 20px;
+}
+.signupContainer{
+    position: relative;
+    background-color: rgba(229,86,71,255);
+}
+.signupContainer img{
+    height: 50vh;
+    width: 100%;
+    opacity: 0.3;
+}
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.signupHeading{
+    margin-bottom: 30px;
+}
+.subscribe{
+    justify-content: space-between;
+}
+.emaill::placeholder {
+    font-size: 20px;
+    color: white; 
+    font-weight: bold;
+}
+.emaill{
+    width:70%;
+    padding:10px 20px;
+    opacity: 0.7;
+    border:3px solid white;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 20px;
+}
+.button{
+    color:rgba(229,86,71,255);
+    border:none;
+    outline:none;
+    background-color: white;
+    padding:10px 30px;
+    border-radius: 20px;
+}
+.bars{
+    display: none;
+}
+.footer{
+    background-color: black;
+    padding-top:30px;
+}
+.blogHeading{
+    margin-bottom: 20px;
+}
+.bottomNavListItem{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.bottomNavListItemLink{
+    text-decoration: none !important;
+    color:white;
+}
+.botomNavList{
+    margin-left: -40px;
+}
+.footerIcons{
+    width:80%;
+}
+.footerIcons i{
+    font-size: 25px;
+    border:2px solid white;
+    border-radius: 50%;
+    padding:10px;
+}
+.footer h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.happyCustomerTick{
+    font-size:60px;
+	font-weight:bold;
+    color:gray;
+}
+.footer hr{
+    color:red;
+    border-top: 3px solid white;
+    height: 2vh;
+    
+}
+.copyright{
+    font-size: 25px;
+    text-align: center;
+    height: 6vh;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .topHeader{
+        font-size: 14px;
+    }
+    .logoImage{
+        height: 80px;
+        width:250px;
+    }
+    .searchBox{
+        position: relative;
+        width:80%;
+    }
+    .searchInput{
+        width: 80%;
+        margin-top:15px;
+        padding:8px 20px;
+    }
+    .search{
+        position: absolute;
+        top:32%;
+        right:23%;
+    }
+    .navIcons{
+        width: 40%;
+    }
+    .mainNavListItem{
+        padding:9px;
+    }
+    .mainNavListItemLink{
+        padding:9px;
+    }
+    .chervinContainer{
+        flex-direction: column;
+    }
+    .chervinHeadingText{
+        text-align: center;
+    }
+    .chervinText{
+        width:100%;
+    }
+    .products{
+        flex-direction: column;
+        padding:5px;
+    }
+    .products i{
+        width:30%;
+        font-size: 20px;
+        margin:10px 0px 10px 25px;
+    }
+    .productsText{
+        text-align: left;
+    }
+    .customersFeedbackText{
+        font-size: 15px;
+    }
+    .cardd{
+        width:30%;
+    }
+    .blog, .menu, .rooms, .about{
+        width:25%;
+        
+    }
+    .footerIcons{
+        width:90%;
+    }
+    .footer h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .footer li{
+        font-size: 15px;
+    }
+    .button{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .signupHeadingText{
+        font-size: 25px;
+    }
+    .cText{
+        font-size: 30px;
+        padding-top:30px;
+    }
+    .copyright{
+        font-size: 20px;
+    }
+    
+    
+}
+@media only screen and (max-width:768px) {
+    .contacts{
+        flex-direction: column;
+    }
+    .topNavList{
+        display: flex;
+        flex-direction: column;
+    }
+    .topNavListItemLink{
+        padding:8px;
+    }
+    .logoImage{
+        margin-top:4px;
+        height: 60px;
+        width:150px;
+    }
+    .searchBox{
+        position: relative;
+        width:75%;
+    }
+    .searchInput{
+        width: 75%;
+        padding:2px 5px;
+    }
+    .search{
+        position: absolute;
+        top:35%;
+        right:30%;
+    }
+    .navIcons{
+        width: 50%;
+    }
+    .navIcons i{
+        margin-top:-8px;
+    }
+    .midHeader{
+        margin-bottom: 5px;
+    }
+    .bottomHeader{
+        height: 5vh;
+        margin-bottom: 20px;
+    }
+    .mainNav{
+        display: none;
+    }
+    .backgroundFull{
+        position: relative;
+    }
+    .navBar{
+        display: none;
+    }
+    .bars{
+        display: block !important;
+        position: absolute;
+        top:25%;
+        right: 10%;
+    }
+    .responsive {
+        width:100%;
+    }
+    .responsive .navBar{
+        display:block;
+        height:40vh;
+        background-color: rgba(54,54,54,255);
+        padding-top:50px;
+    }
+    .responsive .mainNavListItem{
+        float:none;
+    }
+    .mainNavListItem{
+        text-align: center;
+    }
+    .products{
+        width:20%;
+        padding:5px;
+    }
+    .products i{
+        width:10%;
+        font-size: 20px;
+        margin:10px 0px 10px 25px;
+    }
+    .productsText{
+        text-align: left;
+        font-size: 12px;
+    }
+    .ncard{
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .categories i {
+        font-size: 25px;
+    }
+    .categories h1 {
+        font-size: 15px;
+    }
+    .cardSection{
+        flex-direction: column;
+    }
+    .cardd{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .button{
+        padding: 10px;
+        font-size: 13px;
+    }
+    .blog, .menu, .rooms, .about{
+       width:40%;
+    }
+    .footer h1{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer li{
+        font-size: 12px;
+    }
+    .footer i{
+        font-size: 15px;
+    }
+    .footerIcons{
+        width:100%;
+    }
+    .cText{
+        font-size: 20px;
+        padding-top:40px;
+    }
+    .line{
+        width:60%;
+        height:30vh;
+    }
+    .cText{
+        width:40%;
+        height: 20vh;
+    }
+    .carousel{
+        z-index: -1;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width:480px) {
+    .topHeader{
+        font-size: 12px;
+    }
+    .logoImage{
+        height: 60px;
+        width:170px;
+    }
+    .searchBox{
+        position: relative;
+        width:50%;
+    }
+    .searchInput{
+        width: 50%;
+        padding:2px;
+    }
+    .search{
+        position: absolute;
+        top:32%;
+        right:23%;
+    }
+    .midHeader{
+        justify-content: space-between;
+    }
+    .hide{
+      display: none;  
+    }
+    .navIcons{
+        width:40%;
+    }
+    .products{
+        width:20%;
+        padding:2px;
+    }
+    .products i{
+        width:20%;
+        font-size: 20px;
+        margin:10px 0px 10px 20px;
+    }
+    .headingText{
+        font-size: 25px;
+    }
+    .productsText{
+        text-align: left;
+        font-size: 10px;
+    }
+    .categories i {
+        font-size: 20px;
+    }
+    .categories h1 {
+        font-size: 10px;
+    }
+    .blog, .menu, .rooms, .about{
+        width:30%;
+     }
+     .footer h1{
+         font-size: 14px;
+         font-weight: bold;
+     }
+     .footer p{
+         font-size: 10px;
+     }
+     .footer li{
+         font-size: 10px;
+     }
+     .footer i{
+         font-size: 10px;
+     }
+     .copyright{
+        font-size: 10px;
+    }
+
+
+    
+}
